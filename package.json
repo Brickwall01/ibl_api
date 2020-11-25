@@ -4,7 +4,8 @@
   "description": "Bendigo Bank API for IBL 2020-2021",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docker:build": "docker image build .",
+    "postdocker:build": "npm run docker:tag"
   },
   "keywords": [
     "IBL",
