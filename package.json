@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Bendigo Bank API for IBL 2020-2021",
   "main": "index.js",
+  "git_hash": "npm list ibl_api",
   "scripts": {
-    "docker:build": "docker image build .",
+    "docker:build": "docker image build --build-arg git_hash=$(git rev-parse --short HEAD) .",
     "postdocker:build": "npm run docker:tag"
   },
   "keywords": [

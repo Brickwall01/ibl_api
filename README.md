@@ -1,7 +1,9 @@
 
-PRE-REQUISITES
+PRE-REQUISITES & DEPENDENCIES
 -Windows 10 (for Docker)
 -Admin Privelleges
+-Git
+-Express V.4.17.1+
 -Node LTS (V.12+) https://nodejs.org/en/download/
 -Docker Desktop Installed https://www.docker.com/get-started
   (please follow prompts and instructions from the official websites.)
